@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://okqyru5tmt0r"]
+
+[ext_resource type="Script" uid="uid://cvqy5m2lvndnj" path="res://scenes/components/interractable_component.gd" id="1_vva8t"]
+
+[node name="InterractableComponent" type="Area2D"]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_vva8t")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
