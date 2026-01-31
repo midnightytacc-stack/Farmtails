@@ -1,10 +1,13 @@
-[gd_resource type="TileSet" load_steps=11 format=3 uid="uid://tbruskg7baxj"]
+[gd_resource type="TileSet" load_steps=14 format=3 uid="uid://tbruskg7baxj"]
 
 [ext_resource type="Texture2D" uid="uid://cmpsc0dy082sc" path="res://assets/game/tilesets/water.png" id="1_0ghq3"]
 [ext_resource type="Texture2D" uid="uid://hpgnym8785wg" path="res://assets/game/tilesets/grass.png" id="2_o3obh"]
 [ext_resource type="Texture2D" uid="uid://n8rxyt34n2po" path="res://assets/game/tilesets/tilled_dirt_wide.png" id="3_71m5w"]
 [ext_resource type="Texture2D" uid="uid://5ptd0inrvowe" path="res://assets/game/objects/basic_grass_biome_things.png" id="4_d7aul"]
 [ext_resource type="PackedScene" uid="uid://dxyvg37sggvbx" path="res://scenes/houses/large_house.tscn" id="5_d7aul"]
+[ext_resource type="PackedScene" uid="uid://cjtb1vdu1fre1" path="res://scenes/objects/trees/SmallTree.tscn" id="6_e43jx"]
+[ext_resource type="PackedScene" uid="uid://dyw1r0tf4sm0j" path="res://scenes/objects/trees/log.tscn" id="7_txf0g"]
+[ext_resource type="PackedScene" uid="uid://cqiqmexv5qci0" path="res://scenes/objects/trees/LargeTree.tscn" id="8_47fbk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_o3obh"]
 texture = ExtResource("1_0ghq3")
@@ -485,6 +488,9 @@ texture = ExtResource("4_d7aul")
 
 [sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_e43jx"]
 scenes/1/scene = ExtResource("5_d7aul")
+scenes/2/scene = ExtResource("6_e43jx")
+scenes/3/scene = ExtResource("7_txf0g")
+scenes/4/scene = ExtResource("8_47fbk")
 
 [resource]
 terrain_set_0/mode = 0
